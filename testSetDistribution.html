@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega/2.6.3/vega.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega-lite/1.2.0/vega-lite.min.js" charset="utf-8"></script>
+<script src="https://vega.github.io/vega-editor/vendor/vega-embed.js" charset="utf-8"></script>
+  </head>
+  <body>
+ <div id='vegas-db535b46-3eb2-4509-ac06-fb0a04f6db22'></div>
+ <script>
+   var embedSpec = {
+     mode: "vega-lite",
+     spec: {
+  "width" : 600.0,
+  "height" : 600.0,
+  "mark" : "bar",
+  "encoding" : {
+    "x" : {
+      "field" : "sentiment",
+      "type" : "nominal"
+    },
+    "y" : {
+      "field" : "occurrence",
+      "type" : "quantitative"
+    }
+  },
+  "description" : "Test set - sentiment distribution",
+  "data" : {
+    "values" : [
+      {
+        "sentiment" : "neutral",
+        "occurrence" : 1430
+      },
+      {
+        "sentiment" : "negative",
+        "occurrence" : 1001
+      },
+      {
+        "sentiment" : "positive",
+        "occurrence" : 1103
+      }
+    ]
+  }
+}
+   }
+   vg.embed("#vegas-db535b46-3eb2-4509-ac06-fb0a04f6db22", embedSpec, function(error, result) {});
+ </script>
+
+    </body>
+</html>

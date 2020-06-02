@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/olek/Desktop/kaglNewScala/src/main/resources/test.csv,/Users/olek/Desktop/kaglNewScala/target/scala-2.11/classes/test.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/olek/Desktop/kaglNewScala/src/main/resources/train.csv,/Users/olek/Desktop/kaglNewScala/target/scala-2.11/classes/train.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/olek/Desktop/kaglNewScala/src/main/resources/sample_submission.csv,/Users/olek/Desktop/kaglNewScala/target/scala-2.11/classes/sample_submission.csv)[0m

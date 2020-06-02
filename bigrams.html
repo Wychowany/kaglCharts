@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega/2.6.3/vega.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega-lite/1.2.0/vega-lite.min.js" charset="utf-8"></script>
+<script src="https://vega.github.io/vega-editor/vendor/vega-embed.js" charset="utf-8"></script>
+  </head>
+  <body>
+ <div id='vegas-e97a82da-8f05-41f3-89ed-1387082698f6'></div>
+ <script>
+   var embedSpec = {
+     mode: "vega-lite",
+     spec: {
+  "width" : 600.0,
+  "height" : 600.0,
+  "mark" : "bar",
+  "encoding" : {
+    "x" : {
+      "field" : "bigram",
+      "type" : "nominal"
+    },
+    "y" : {
+      "field" : "occurrence",
+      "type" : "quantitative"
+    }
+  },
+  "description" : "Train set - sentiment distribution",
+  "data" : {
+    "values" : [
+      {
+        "bigram" : "I love",
+        "occurrence" : 123
+      },
+      {
+        "bigram" : "i love",
+        "occurrence" : 85
+      },
+      {
+        "bigram" : "a great",
+        "occurrence" : 84
+      },
+      {
+        "bigram" : "Happy Mother`s",
+        "occurrence" : 72
+      },
+      {
+        "bigram" : "a good",
+        "occurrence" : 68
+      },
+      {
+        "bigram" : "have a",
+        "occurrence" : 54
+      },
+      {
+        "bigram" : "Mother`s Day",
+        "occurrence" : 53
+      },
+      {
+        "bigram" : "for the",
+        "occurrence" : 50
+      },
+      {
+        "bigram" : "to all",
+        "occurrence" : 43
+      },
+      {
+        "bigram" : "had a",
+        "occurrence" : 42
+      }
+    ]
+  }
+}
+   }
+   vg.embed("#vegas-e97a82da-8f05-41f3-89ed-1387082698f6", embedSpec, function(error, result) {});
+ </script>
+
+    </body>
+</html>

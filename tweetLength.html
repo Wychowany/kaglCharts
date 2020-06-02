@@ -1,0 +1,2095 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega/2.6.3/vega.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega-lite/1.2.0/vega-lite.min.js" charset="utf-8"></script>
+<script src="https://vega.github.io/vega-editor/vendor/vega-embed.js" charset="utf-8"></script>
+  </head>
+  <body>
+ <div id='vegas-977c2afb-3fca-43e5-b1b5-0db790b75637'></div>
+ <script>
+   var embedSpec = {
+     mode: "vega-lite",
+     spec: {
+  "width" : 600.0,
+  "height" : 600.0,
+  "mark" : "line",
+  "encoding" : {
+    "x" : {
+      "field" : "characters",
+      "type" : "quantitative"
+    },
+    "y" : {
+      "field" : "tweets",
+      "type" : "quantitative"
+    },
+    "color" : {
+      "legend" : {
+        "title" : "Sentiment",
+        "orient" : "left"
+      },
+      "field" : "symbol",
+      "type" : "nominal"
+    },
+    "detail" : {
+      "field" : "symbol",
+      "type" : "nominal"
+    }
+  },
+  "description" : "Sample Multi Series Line Chart",
+  "data" : {
+    "values" : [
+      {
+        "characters" : 69,
+        "tweets" : 93,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 138,
+        "tweets" : 57,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 101,
+        "tweets" : 67,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 88,
+        "tweets" : 71,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 115,
+        "tweets" : 57,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 5,
+        "tweets" : 17,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 120,
+        "tweets" : 84,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 10,
+        "tweets" : 57,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 56,
+        "tweets" : 117,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 42,
+        "tweets" : 127,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 24,
+        "tweets" : 96,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 37,
+        "tweets" : 124,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 25,
+        "tweets" : 107,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 52,
+        "tweets" : 114,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 14,
+        "tweets" : 86,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 110,
+        "tweets" : 58,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 125,
+        "tweets" : 77,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 20,
+        "tweets" : 124,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 46,
+        "tweets" : 112,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 93,
+        "tweets" : 86,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 57,
+        "tweets" : 97,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 78,
+        "tweets" : 87,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 29,
+        "tweets" : 121,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 106,
+        "tweets" : 56,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 121,
+        "tweets" : 82,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 84,
+        "tweets" : 73,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 61,
+        "tweets" : 90,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 132,
+        "tweets" : 40,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 89,
+        "tweets" : 61,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 133,
+        "tweets" : 39,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 116,
+        "tweets" : 60,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 74,
+        "tweets" : 77,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 6,
+        "tweets" : 20,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 60,
+        "tweets" : 92,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 117,
+        "tweets" : 66,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 85,
+        "tweets" : 67,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 102,
+        "tweets" : 68,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 28,
+        "tweets" : 137,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 38,
+        "tweets" : 126,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 70,
+        "tweets" : 82,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 21,
+        "tweets" : 110,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 137,
+        "tweets" : 91,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 33,
+        "tweets" : 122,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 92,
+        "tweets" : 61,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 65,
+        "tweets" : 99,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 97,
+        "tweets" : 67,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 9,
+        "tweets" : 45,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 53,
+        "tweets" : 115,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 141,
+        "tweets" : 1,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 109,
+        "tweets" : 59,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 124,
+        "tweets" : 86,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 77,
+        "tweets" : 77,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 96,
+        "tweets" : 61,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 13,
+        "tweets" : 57,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 129,
+        "tweets" : 64,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 41,
+        "tweets" : 127,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 134,
+        "tweets" : 51,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 73,
+        "tweets" : 80,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 128,
+        "tweets" : 64,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 105,
+        "tweets" : 51,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 32,
+        "tweets" : 111,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 34,
+        "tweets" : 123,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 45,
+        "tweets" : 108,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 64,
+        "tweets" : 95,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 17,
+        "tweets" : 87,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 22,
+        "tweets" : 133,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 44,
+        "tweets" : 127,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 59,
+        "tweets" : 100,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 118,
+        "tweets" : 66,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 27,
+        "tweets" : 102,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 71,
+        "tweets" : 96,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 12,
+        "tweets" : 71,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 54,
+        "tweets" : 92,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 49,
+        "tweets" : 100,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 86,
+        "tweets" : 71,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 113,
+        "tweets" : 59,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 81,
+        "tweets" : 68,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 76,
+        "tweets" : 81,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 7,
+        "tweets" : 32,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 39,
+        "tweets" : 123,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 98,
+        "tweets" : 72,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 103,
+        "tweets" : 61,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 91,
+        "tweets" : 74,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 66,
+        "tweets" : 77,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 108,
+        "tweets" : 64,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 130,
+        "tweets" : 54,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 135,
+        "tweets" : 44,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 3,
+        "tweets" : 5,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 80,
+        "tweets" : 97,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 35,
+        "tweets" : 116,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 112,
+        "tweets" : 50,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 123,
+        "tweets" : 70,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 48,
+        "tweets" : 113,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 63,
+        "tweets" : 104,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 18,
+        "tweets" : 101,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 95,
+        "tweets" : 63,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 50,
+        "tweets" : 105,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 67,
+        "tweets" : 99,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 16,
+        "tweets" : 97,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 127,
+        "tweets" : 65,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 31,
+        "tweets" : 127,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 11,
+        "tweets" : 57,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 72,
+        "tweets" : 82,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 43,
+        "tweets" : 117,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 99,
+        "tweets" : 61,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 87,
+        "tweets" : 75,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 104,
+        "tweets" : 64,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 40,
+        "tweets" : 127,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 26,
+        "tweets" : 122,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 55,
+        "tweets" : 97,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 114,
+        "tweets" : 52,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 139,
+        "tweets" : 2,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 23,
+        "tweets" : 129,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 8,
+        "tweets" : 41,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 75,
+        "tweets" : 65,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 119,
+        "tweets" : 69,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 58,
+        "tweets" : 93,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 82,
+        "tweets" : 70,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 36,
+        "tweets" : 119,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 30,
+        "tweets" : 113,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 51,
+        "tweets" : 89,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 19,
+        "tweets" : 127,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 107,
+        "tweets" : 60,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 4,
+        "tweets" : 8,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 126,
+        "tweets" : 64,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 136,
+        "tweets" : 75,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 79,
+        "tweets" : 67,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 94,
+        "tweets" : 71,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 131,
+        "tweets" : 47,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 47,
+        "tweets" : 105,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 15,
+        "tweets" : 94,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 68,
+        "tweets" : 92,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 62,
+        "tweets" : 80,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 90,
+        "tweets" : 67,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 111,
+        "tweets" : 64,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 122,
+        "tweets" : 79,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 83,
+        "tweets" : 52,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 100,
+        "tweets" : 58,
+        "symbol" : "neutral"
+      },
+      {
+        "characters" : 69,
+        "tweets" : 64,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 138,
+        "tweets" : 38,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 101,
+        "tweets" : 54,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 88,
+        "tweets" : 61,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 115,
+        "tweets" : 65,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 5,
+        "tweets" : 4,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 120,
+        "tweets" : 61,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 10,
+        "tweets" : 17,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 56,
+        "tweets" : 73,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 42,
+        "tweets" : 96,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 24,
+        "tweets" : 57,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 37,
+        "tweets" : 86,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 25,
+        "tweets" : 58,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 52,
+        "tweets" : 76,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 14,
+        "tweets" : 36,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 110,
+        "tweets" : 48,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 125,
+        "tweets" : 59,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 20,
+        "tweets" : 57,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 46,
+        "tweets" : 102,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 93,
+        "tweets" : 58,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 57,
+        "tweets" : 72,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 78,
+        "tweets" : 68,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 29,
+        "tweets" : 82,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 106,
+        "tweets" : 62,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 121,
+        "tweets" : 80,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 84,
+        "tweets" : 51,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 61,
+        "tweets" : 77,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 132,
+        "tweets" : 22,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 89,
+        "tweets" : 67,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 133,
+        "tweets" : 30,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 116,
+        "tweets" : 55,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 74,
+        "tweets" : 69,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 6,
+        "tweets" : 4,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 60,
+        "tweets" : 96,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 117,
+        "tweets" : 58,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 85,
+        "tweets" : 74,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 102,
+        "tweets" : 37,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 28,
+        "tweets" : 68,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 38,
+        "tweets" : 81,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 70,
+        "tweets" : 93,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 21,
+        "tweets" : 50,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 137,
+        "tweets" : 52,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 33,
+        "tweets" : 70,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 92,
+        "tweets" : 51,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 65,
+        "tweets" : 86,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 97,
+        "tweets" : 65,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 9,
+        "tweets" : 11,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 53,
+        "tweets" : 83,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 109,
+        "tweets" : 55,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 124,
+        "tweets" : 60,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 77,
+        "tweets" : 73,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 96,
+        "tweets" : 64,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 13,
+        "tweets" : 30,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 129,
+        "tweets" : 47,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 41,
+        "tweets" : 90,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 134,
+        "tweets" : 39,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 73,
+        "tweets" : 86,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 128,
+        "tweets" : 58,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 105,
+        "tweets" : 45,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 32,
+        "tweets" : 87,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 34,
+        "tweets" : 92,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 45,
+        "tweets" : 108,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 64,
+        "tweets" : 82,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 17,
+        "tweets" : 60,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 22,
+        "tweets" : 64,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 44,
+        "tweets" : 89,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 59,
+        "tweets" : 79,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 118,
+        "tweets" : 41,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 27,
+        "tweets" : 78,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 71,
+        "tweets" : 82,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 12,
+        "tweets" : 24,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 54,
+        "tweets" : 89,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 49,
+        "tweets" : 82,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 86,
+        "tweets" : 50,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 113,
+        "tweets" : 66,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 81,
+        "tweets" : 59,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 76,
+        "tweets" : 71,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 7,
+        "tweets" : 10,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 39,
+        "tweets" : 91,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 98,
+        "tweets" : 65,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 103,
+        "tweets" : 56,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 91,
+        "tweets" : 76,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 66,
+        "tweets" : 68,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 108,
+        "tweets" : 59,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 130,
+        "tweets" : 32,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 135,
+        "tweets" : 63,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 80,
+        "tweets" : 60,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 35,
+        "tweets" : 83,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 112,
+        "tweets" : 45,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 123,
+        "tweets" : 80,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 48,
+        "tweets" : 92,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 63,
+        "tweets" : 91,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 18,
+        "tweets" : 65,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 95,
+        "tweets" : 53,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 50,
+        "tweets" : 91,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 67,
+        "tweets" : 89,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 16,
+        "tweets" : 66,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 127,
+        "tweets" : 64,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 31,
+        "tweets" : 83,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 11,
+        "tweets" : 26,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 72,
+        "tweets" : 83,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 43,
+        "tweets" : 84,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 99,
+        "tweets" : 49,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 87,
+        "tweets" : 57,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 104,
+        "tweets" : 44,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 40,
+        "tweets" : 69,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 26,
+        "tweets" : 79,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 55,
+        "tweets" : 77,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 114,
+        "tweets" : 45,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 23,
+        "tweets" : 60,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 8,
+        "tweets" : 14,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 75,
+        "tweets" : 76,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 119,
+        "tweets" : 65,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 58,
+        "tweets" : 89,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 82,
+        "tweets" : 78,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 36,
+        "tweets" : 91,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 30,
+        "tweets" : 69,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 51,
+        "tweets" : 79,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 19,
+        "tweets" : 55,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 107,
+        "tweets" : 45,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 126,
+        "tweets" : 66,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 136,
+        "tweets" : 55,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 79,
+        "tweets" : 88,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 94,
+        "tweets" : 72,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 131,
+        "tweets" : 45,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 47,
+        "tweets" : 98,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 15,
+        "tweets" : 43,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 68,
+        "tweets" : 65,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 62,
+        "tweets" : 77,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 90,
+        "tweets" : 56,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 111,
+        "tweets" : 58,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 122,
+        "tweets" : 57,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 83,
+        "tweets" : 90,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 100,
+        "tweets" : 62,
+        "symbol" : "positive"
+      },
+      {
+        "characters" : 69,
+        "tweets" : 76,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 138,
+        "tweets" : 40,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 101,
+        "tweets" : 32,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 88,
+        "tweets" : 58,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 115,
+        "tweets" : 54,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 5,
+        "tweets" : 2,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 120,
+        "tweets" : 45,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 10,
+        "tweets" : 17,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 56,
+        "tweets" : 75,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 42,
+        "tweets" : 75,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 24,
+        "tweets" : 70,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 37,
+        "tweets" : 74,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 25,
+        "tweets" : 49,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 52,
+        "tweets" : 88,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 14,
+        "tweets" : 43,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 110,
+        "tweets" : 40,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 125,
+        "tweets" : 58,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 20,
+        "tweets" : 44,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 46,
+        "tweets" : 87,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 93,
+        "tweets" : 57,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 57,
+        "tweets" : 63,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 78,
+        "tweets" : 66,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 29,
+        "tweets" : 76,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 106,
+        "tweets" : 45,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 121,
+        "tweets" : 43,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 84,
+        "tweets" : 53,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 61,
+        "tweets" : 85,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 132,
+        "tweets" : 37,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 89,
+        "tweets" : 64,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 133,
+        "tweets" : 37,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 116,
+        "tweets" : 42,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 74,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 6,
+        "tweets" : 3,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 60,
+        "tweets" : 80,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 117,
+        "tweets" : 54,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 85,
+        "tweets" : 56,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 102,
+        "tweets" : 43,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 28,
+        "tweets" : 67,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 38,
+        "tweets" : 80,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 70,
+        "tweets" : 56,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 21,
+        "tweets" : 65,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 137,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 33,
+        "tweets" : 69,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 92,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 65,
+        "tweets" : 81,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 97,
+        "tweets" : 54,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 9,
+        "tweets" : 10,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 53,
+        "tweets" : 83,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 141,
+        "tweets" : 1,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 109,
+        "tweets" : 34,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 124,
+        "tweets" : 70,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 77,
+        "tweets" : 61,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 96,
+        "tweets" : 36,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 13,
+        "tweets" : 32,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 129,
+        "tweets" : 41,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 41,
+        "tweets" : 91,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 134,
+        "tweets" : 43,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 73,
+        "tweets" : 53,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 128,
+        "tweets" : 43,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 105,
+        "tweets" : 55,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 32,
+        "tweets" : 78,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 34,
+        "tweets" : 77,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 45,
+        "tweets" : 79,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 64,
+        "tweets" : 70,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 17,
+        "tweets" : 53,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 22,
+        "tweets" : 58,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 44,
+        "tweets" : 78,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 59,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 118,
+        "tweets" : 53,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 27,
+        "tweets" : 61,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 71,
+        "tweets" : 66,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 12,
+        "tweets" : 28,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 54,
+        "tweets" : 86,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 49,
+        "tweets" : 75,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 86,
+        "tweets" : 58,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 113,
+        "tweets" : 35,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 81,
+        "tweets" : 69,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 76,
+        "tweets" : 63,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 7,
+        "tweets" : 9,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 39,
+        "tweets" : 77,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 98,
+        "tweets" : 58,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 103,
+        "tweets" : 49,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 140,
+        "tweets" : 1,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 91,
+        "tweets" : 50,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 66,
+        "tweets" : 82,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 108,
+        "tweets" : 46,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 130,
+        "tweets" : 44,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 135,
+        "tweets" : 54,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 80,
+        "tweets" : 53,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 35,
+        "tweets" : 70,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 112,
+        "tweets" : 46,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 123,
+        "tweets" : 53,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 48,
+        "tweets" : 96,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 63,
+        "tweets" : 73,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 18,
+        "tweets" : 42,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 95,
+        "tweets" : 50,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 50,
+        "tweets" : 80,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 67,
+        "tweets" : 67,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 16,
+        "tweets" : 40,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 127,
+        "tweets" : 45,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 31,
+        "tweets" : 77,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 11,
+        "tweets" : 24,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 72,
+        "tweets" : 66,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 43,
+        "tweets" : 90,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 99,
+        "tweets" : 47,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 87,
+        "tweets" : 49,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 104,
+        "tweets" : 40,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 40,
+        "tweets" : 75,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 26,
+        "tweets" : 51,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 55,
+        "tweets" : 87,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 114,
+        "tweets" : 44,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 139,
+        "tweets" : 2,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 23,
+        "tweets" : 68,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 8,
+        "tweets" : 8,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 75,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 119,
+        "tweets" : 57,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 58,
+        "tweets" : 85,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 82,
+        "tweets" : 54,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 36,
+        "tweets" : 83,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 30,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 51,
+        "tweets" : 83,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 19,
+        "tweets" : 51,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 107,
+        "tweets" : 39,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 126,
+        "tweets" : 60,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 136,
+        "tweets" : 78,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 79,
+        "tweets" : 64,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 94,
+        "tweets" : 50,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 131,
+        "tweets" : 41,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 47,
+        "tweets" : 83,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 15,
+        "tweets" : 43,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 68,
+        "tweets" : 55,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 62,
+        "tweets" : 64,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 90,
+        "tweets" : 46,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 111,
+        "tweets" : 57,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 122,
+        "tweets" : 73,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 83,
+        "tweets" : 81,
+        "symbol" : "negative"
+      },
+      {
+        "characters" : 100,
+        "tweets" : 46,
+        "symbol" : "negative"
+      }
+    ]
+  }
+}
+   }
+   vg.embed("#vegas-977c2afb-3fca-43e5-b1b5-0db790b75637", embedSpec, function(error, result) {});
+ </script>
+
+    </body>
+</html>

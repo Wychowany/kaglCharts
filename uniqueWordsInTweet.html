@@ -1,0 +1,480 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega/2.6.3/vega.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega-lite/1.2.0/vega-lite.min.js" charset="utf-8"></script>
+<script src="https://vega.github.io/vega-editor/vendor/vega-embed.js" charset="utf-8"></script>
+  </head>
+  <body>
+ <div id='vegas-401187c8-556c-4b62-a151-4441d178e22c'></div>
+ <script>
+   var embedSpec = {
+     mode: "vega-lite",
+     spec: {
+  "width" : 600.0,
+  "height" : 600.0,
+  "mark" : "line",
+  "encoding" : {
+    "x" : {
+      "field" : "unique words in selected_text",
+      "type" : "quantitative"
+    },
+    "y" : {
+      "field" : "tweets",
+      "type" : "quantitative"
+    },
+    "color" : {
+      "legend" : {
+        "title" : "Sentiment",
+        "orient" : "left"
+      },
+      "field" : "symbol",
+      "type" : "nominal"
+    },
+    "detail" : {
+      "field" : "symbol",
+      "type" : "nominal"
+    }
+  },
+  "description" : "Sample Multi Series Line Chart",
+  "data" : {
+    "values" : [
+      {
+        "unique words in selected_text" : 5,
+        "tweets" : 625,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 10,
+        "tweets" : 574,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 24,
+        "tweets" : 223,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 25,
+        "tweets" : 146,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 14,
+        "tweets" : 453,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 20,
+        "tweets" : 342,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 29,
+        "tweets" : 16,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 1,
+        "tweets" : 160,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 6,
+        "tweets" : 679,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 28,
+        "tweets" : 26,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 21,
+        "tweets" : 323,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 9,
+        "tweets" : 637,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 13,
+        "tweets" : 480,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 2,
+        "tweets" : 290,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 17,
+        "tweets" : 390,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 22,
+        "tweets" : 281,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 27,
+        "tweets" : 60,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 12,
+        "tweets" : 521,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 7,
+        "tweets" : 670,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 3,
+        "tweets" : 488,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 18,
+        "tweets" : 367,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 16,
+        "tweets" : 403,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 11,
+        "tweets" : 549,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 26,
+        "tweets" : 102,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 23,
+        "tweets" : 273,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 8,
+        "tweets" : 631,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 30,
+        "tweets" : 4,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 19,
+        "tweets" : 349,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 4,
+        "tweets" : 632,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 15,
+        "tweets" : 423,
+        "symbol" : "neutral"
+      },
+      {
+        "unique words in selected_text" : 5,
+        "tweets" : 428,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 10,
+        "tweets" : 96,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 24,
+        "tweets" : 16,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 25,
+        "tweets" : 9,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 14,
+        "tweets" : 47,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 20,
+        "tweets" : 23,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 1,
+        "tweets" : 3719,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 6,
+        "tweets" : 335,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 21,
+        "tweets" : 16,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 9,
+        "tweets" : 125,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 13,
+        "tweets" : 57,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 2,
+        "tweets" : 1320,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 17,
+        "tweets" : 40,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 22,
+        "tweets" : 22,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 27,
+        "tweets" : 2,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 12,
+        "tweets" : 74,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 7,
+        "tweets" : 249,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 3,
+        "tweets" : 889,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 18,
+        "tweets" : 29,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 16,
+        "tweets" : 41,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 11,
+        "tweets" : 83,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 26,
+        "tweets" : 1,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 23,
+        "tweets" : 20,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 8,
+        "tweets" : 182,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 19,
+        "tweets" : 33,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 4,
+        "tweets" : 675,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 15,
+        "tweets" : 51,
+        "symbol" : "positive"
+      },
+      {
+        "unique words in selected_text" : 5,
+        "tweets" : 547,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 10,
+        "tweets" : 124,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 24,
+        "tweets" : 14,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 25,
+        "tweets" : 21,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 14,
+        "tweets" : 44,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 20,
+        "tweets" : 39,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 29,
+        "tweets" : 2,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 1,
+        "tweets" : 3001,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 6,
+        "tweets" : 380,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 28,
+        "tweets" : 2,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 21,
+        "tweets" : 22,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 9,
+        "tweets" : 142,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 13,
+        "tweets" : 57,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 2,
+        "tweets" : 1038,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 17,
+        "tweets" : 32,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 22,
+        "tweets" : 17,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 27,
+        "tweets" : 5,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 12,
+        "tweets" : 72,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 7,
+        "tweets" : 257,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 3,
+        "tweets" : 843,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 18,
+        "tweets" : 31,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 16,
+        "tweets" : 36,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 11,
+        "tweets" : 86,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 26,
+        "tweets" : 3,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 23,
+        "tweets" : 15,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 8,
+        "tweets" : 209,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 19,
+        "tweets" : 28,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 4,
+        "tweets" : 665,
+        "symbol" : "negative"
+      },
+      {
+        "unique words in selected_text" : 15,
+        "tweets" : 49,
+        "symbol" : "negative"
+      }
+    ]
+  }
+}
+   }
+   vg.embed("#vegas-401187c8-556c-4b62-a151-4441d178e22c", embedSpec, function(error, result) {});
+ </script>
+
+    </body>
+</html>
